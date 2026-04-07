@@ -1,0 +1,32 @@
+name: tp3
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ── Packages ajoutés pour le TP3 ──────────────────────
+  just_audio: ^0.9.36
+  flutter_background_service: ^5.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # ── Asset audio ajouté pour le TP3 ───────────────────
+  assets:
+    - sounds/music.mp3
